@@ -5,8 +5,9 @@ class ScheduleController < ApplicationController
 
   def index
     uri = URI('https://spla3.yuu26.com/api/bankara-open/schedule')
+    #httpステータスを確認し200以外はリターンする
     return unless Net::HTTP.get_response(uri).is_a?(Net::HTTPSuccess)
-    p "OK!🍏"
+
     response = Net::HTTP.get(uri)
     @schedule = JSON.parse(response)
     send_line_message
@@ -15,6 +16,7 @@ class ScheduleController < ApplicationController
   private
 
   def send_line_message
+    # メッセージの整形
     message = "Splatoon 3のスケジュール情報\n"
     @schedule["results"].each do |res|
       start_time = Time.parse(res["start_time"]).strftime("%H:%M")
