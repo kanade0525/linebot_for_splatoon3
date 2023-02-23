@@ -1,0 +1,9 @@
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.22.0.1 at 2023-02-23 03:10:10 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.4ms | Allocations: 584)
+Completed 200 OK in 44ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 4505)
+
+

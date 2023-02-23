@@ -1,4 +1,24 @@
-# linebot_for_splatoon3
+# README
 
-- https://zenn.dev/wakkunn/articles/33c84147608078
-- https://www.y-hakopro.com/entry/2021/01/11/200130
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
